@@ -9,4 +9,4 @@ Agar dapat memenuhi syarat untuk menyelesaikan challenges.
 * https://ecstatic-mestorf-7e89d6.netlify.app/
 
 # kontak
-* Idris Maulana on <a href="https://web.facebook.com/idria.m.9">facebook</a> 
+* Idris Maulana on <a href="https://web.facebook.com/idria.m.9" target="_blank">facebook</a> 
