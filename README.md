@@ -1,9 +1,12 @@
 # DevChallanges-WebPage404
 
-web page 404 not found ini adalah tantangan
-Dari devchallanges.io untuk itu saya membuat dokumentasi ini
-Agar dapat menyelesaikan tugas nya.
+Web page 404 not found ini adalah tantangan
+Dari devchallenges.io , untuk itu saya membuat dokumentasi ini
+Agar dapat memenuhi syarat untuk menyelesaikan challenges.
 
-# Demo
+# demo
 
-https://ecstatic-mestorf-7e89d6.netlify.app/
+* https://ecstatic-mestorf-7e89d6.netlify.app/
+
+# kontak
+* Idris Maulana on <a href="https://web.facebook.com/idria.m.9">facebok</a> 
