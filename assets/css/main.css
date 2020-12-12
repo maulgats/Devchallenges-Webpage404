@@ -20,10 +20,14 @@ body {
 .main {
   display: flex;
   justify-content: space-around;
-
+  width: 100%;
   margin-top: 130px;
   font-family: "Space mono", monospace;
   font-weight: 700;
+}
+
+.desc {
+  width: 40%;
 }
 
 .main img {
@@ -31,24 +35,34 @@ body {
 }
 
 .main h1 {
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 .main p {
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: 400;
 }
 
-.main button {
-  width: 200px;
-  padding: 25px;
-  outline: none;
-  border: none;
-  background: #333333;
+button a {
+  text-decoration: none;
   color: white;
   font-family: "Space mono", monospace;
   font-weight: 700;
   font-size: 14px;
+}
+
+button {
+  width: 200px;
+  height: 75px;
+  padding: 20px;
+  outline: none;
+  border: none;
+  background: #333333;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #252525;
 }
 
 .footer {
@@ -69,5 +83,10 @@ body {
     justify-content: center;
     align-items: center;
   }
+  .main button {
+    height: 65px;
+  }
+  .desc {
+    width: 75%;
+  }
 }
-
