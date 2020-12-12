@@ -1,0 +1,73 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+}
+
+.header h3 {
+  margin: 25px;
+  display: inline-block;
+  font-size: 20px;
+  font-family: monospace;
+  text-align: left;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+
+  margin-top: 130px;
+  font-family: "Space mono", monospace;
+  font-weight: 700;
+}
+
+.main img {
+  width: 40vmax;
+}
+
+.main h1 {
+  font-size: 2.5em;
+}
+
+.main p {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.main button {
+  width: 200px;
+  padding: 25px;
+  outline: none;
+  border: none;
+  background: #333333;
+  color: white;
+  font-family: "Space mono", monospace;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.footer {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 992px) {
+  .main img {
+    flex: 2;
+  }
+}
+
+@media screen and (max-width: 692px) {
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
